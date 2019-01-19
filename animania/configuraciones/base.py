@@ -3,7 +3,7 @@ from unipath import Path
 from .llavesproyecto import LLAVESECRETA
 
 BASE_DIR = Path(__file__).ancestor(3)
-ADMINS = ('Daniel Vladimir', 'animaniastudio@gmail.com')
+ADMINS = ('Daniel Vladimir', 'vladlugardo@gmail.com')
 SECRET_KEY = LLAVESECRETA
 
 
@@ -24,7 +24,7 @@ TERCEROS_APPS = [
 ]
 
 LOCAL_APPS = [
-	#'',
+	'modulos.discos.apps.DiscosConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + TERCEROS_APPS + LOCAL_APPS
