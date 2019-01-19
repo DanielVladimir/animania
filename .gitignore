@@ -1,0 +1,14 @@
+*~
+*.log
+*.pot
+*.pyc
+__pycache__/
+llavesproyecto.py
+basesdatos.py
+*.sqlite3
+*.backup
+000*.py
+media
+static
+assets
+.vscode
